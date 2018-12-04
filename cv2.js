@@ -50,3 +50,21 @@ function bouton3 () {
         document.getElementById('bouton3').innerHTML = '+';    }
 
 }
+
+function bouton4 () {
+
+    var x = document.getElementById('mydiv4');
+
+    if (x.style.display === 'none') {
+
+        x.style.display = 'block';
+
+        document.getElementById('bouton4').innerHTML = '-';
+
+    } else {
+
+        x.style.display = 'none';
+
+        document.getElementById('bouton4').innerHTML = '+';    }
+
+}

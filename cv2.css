@@ -1,1 +1,10 @@
+form {
+    margin: auto;
+    width: 30%;
+}
 
+input, textarea{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 300px;
+}
